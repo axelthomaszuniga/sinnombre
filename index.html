@@ -454,7 +454,7 @@
     <h1 class="title-lg">Ya eres hermosa,<br>pero <span class="title-italic">alístate</span></h1>
     <p style="font-family:'Dancing Script',cursive; font-size:1.1rem; color:var(--lavender); margin-bottom:6px;">porque iremos a nuestra salida</p>
     <div class="divider"></div>
-    <p class="final-time" id="final-time-text">Te esperaré a las —</p>
+    <p class="final-time" id="final-time-text">Te esperaré a las—</p>
     <div class="divider"></div>
     <p class="final-note">
       Gracias por llegar hasta aquí.<br>
@@ -648,7 +648,7 @@ function selectHour(btn, hour) {
 // ── FINAL ─────────────────────────────────────────────────
 function goToFinal() {
   document.getElementById('final-time-text').textContent =
-    `Te recogeré a las ${selectedHour}. 💕`;
+    `Te esperaré a las ${selectedHour}. `;
   showScreen('screen-final');
   setTimeout(launchConfetti, 400);
   // animar la foto después de un momento
